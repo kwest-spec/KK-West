@@ -1,5 +1,5 @@
 {
   "name": "KK-West",
-  "install": "bash scripts/cloud-agent-install.sh",
-  "start": "bash .cursor/start.sh"
+  "install": "[ ! -d '/agent/repos/KK-West' ] || cd '/agent/repos/KK-West' || exit $?\nbash scripts/cloud-agent-install.sh",
+  "start": "[ ! -d '/agent/repos/KK-West' ] || cd '/agent/repos/KK-West' || exit $?\nbash .cursor/start.sh"
 }
