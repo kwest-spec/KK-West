@@ -1,0 +1,5 @@
+{
+  "name": "KK-West",
+  "install": "bash scripts/cloud-agent-install.sh",
+  "start": "bash .cursor/start.sh"
+}
